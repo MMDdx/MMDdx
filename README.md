@@ -6,7 +6,6 @@
 ### 👨‍💻 About Me
 - 🌱 Currently learning **scalable backend patterns**
 - 💬 Ask me about **APIs, real-time apps, or automation**
-- 📫 Reach me at: **moh83amad@gmail.com**
 
 ---
 
