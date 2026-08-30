@@ -1,6 +1,6 @@
 <h1 align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=700&lines=Hey+I'm+Mohammad+Kabiri;+Backend+Developer;Building+Scalable+Backends;Always+Learning+And + Improving"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=2800&pause=900&color=58A6FF&center=true&vCenter=true&width=700&lines=Hey+I'm+Mohammad+Kabiri;+Backend+Developer;Building+Scalable+Backends;Always+Learning+And+Improving"
     alt="Typing Header"
   />
 </h1>
