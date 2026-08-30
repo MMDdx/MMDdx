@@ -1,29 +1,27 @@
 name: Generate GitHub Profile Cards
 
 on:
-schedule:
-- cron: "0 0 * * *"
-workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 permissions:
-contents: write
+  contents: write
 
 jobs:
-profile-cards:
-runs-on: ubuntu-latest
+  cards:
+    runs-on: ubuntu-latest
 
-```
-steps:
-  - name: Checkout
-    uses: actions/checkout@v4
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
 
-  - name: Generate Profile Cards
-    uses: seijikohara/profile-cards-action@v0
-    with:
-      github-token: ${{ secrets.GITHUB_TOKEN }}
-      username: MMDdx
-      cards: overview,contributions,languages
-      output-dir: assets
-      themes: dark
-      commit: true
-```
+      - name: Generate profile cards
+        uses: seijikohara/profile-cards-action@v0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          username: MMDdx
+          cards: overview,contributions,languages
+          output-dir: assets
+          themes: light,dark
+          commit: true
