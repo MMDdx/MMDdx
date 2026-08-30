@@ -77,7 +77,18 @@ and I learn best by building things, breaking them, and figuring out how to make
 ### 🤖 Automation & Testing
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,playwright&theme=dark" alt="Automation and Testing" />
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/playwright/playwright-original.svg"
+    width="48"
+    height="48"
+    alt="Playwright"
+  />
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+    width="48"
+    height="48"
+    alt="Jest"
+  />
 </p>
 
 ---
