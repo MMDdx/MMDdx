@@ -14,10 +14,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
 
       - name: Generate profile cards
-        uses: seijikohara/profile-cards-action@v0
+        uses: seijikohara/profile-cards-action@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           username: MMDdx
